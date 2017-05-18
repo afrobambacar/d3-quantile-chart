@@ -69,8 +69,8 @@
 				.attr('width', 800)
 				.attr('height', 400);
 			var margin = {top: 20, right: 60, bottom: 20, left: 60};
-			var width = +svg.attr('width') - margin.left - margin.right,
-			var height = +svg.attr('height') - margin.top - margin.bottom,
+			var width = +svg.attr('width') - margin.left - margin.right;
+			var height = +svg.attr('height') - margin.top - margin.bottom;
 			var g = svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 			var x = d3.scaleTime()
